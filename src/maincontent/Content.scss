@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.Main{
+
+    .border-div-1{
+
+        width: 4%;
+        height: 100vh;
+        background-color: rgb(15, 36, 56);
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    }
+    .border-div-2{
+
+        width: 4%;
+        height: 100vh;
+        background-color: rgb(15, 36, 56);
+        position: fixed;
+        top: 0;
+        right: 0;
+
+    }
+
+    .img-div{
+        
+        .txt-div{
+
+            position: absolute;
+            top: 25%;
+            left: 15%;
+            color: white;
+
+            h1{
+
+                font-size: 50px;
+                font-weight: 600;
+                line-height: 10%;
+                font-family: Inter;
+
+            }
+
+            h4{
+
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 100;
+
+            }
+
+            button{
+
+                width: 40%;
+                height: 8vh;
+                font-size: 24px;
+                color: white;
+                background: none;
+                border: 3px solid white;
+                transition: all .3s;
+                margin-top: 4%;
+
+                &:hover{
+
+                    border-right: 30px solid transparent;
+                    border-left: 30px solid transparent;
+                    transition: all .3s;
+                    font-size: 20px;
+
+                }   
+                &:active{
+
+                    border-top: 30px solid transparent;
+                    border-bottom: 30px solid transparent;
+                    transition: all .1s;
+                    font-size: 20px;
+
+                }  
+
+            }   
+
+        }
+        
+        width: 100%;
+        z-index: -2;
+        position: relative;
+        top: 0;
+        left: 0;
+
+        img{
+        
+        object-fit: cover;
+        width: 100%;
+
+        }
+
+    }
+    
+    // .sss{
+    
+    //     height: 1000px;
+    //     width: 100%;
+    //     background-color: #fff;
+    //     margin-top: 50%;
+    
+    // }
+    
+}
