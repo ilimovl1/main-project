@@ -3,27 +3,6 @@
 
 .Main{
 
-    .border-div-1{
-
-        width: 4%;
-        height: 100vh;
-        background-color: rgb(15, 36, 56);
-        position: fixed;
-        top: 0;
-        left: 0;
-
-    }
-    .border-div-2{
-
-        width: 4%;
-        height: 100vh;
-        background-color: rgb(15, 36, 56);
-        position: fixed;
-        top: 0;
-        right: 0;
-
-    }
-
     .img-div{
         
         .txt-div{
@@ -32,6 +11,18 @@
             top: 25%;
             left: 15%;
             color: white;
+
+            @media screen and (max-width: 480px){
+        
+                text-align: center;
+             
+            }
+
+            @media screen and (max-width: 768px){
+            
+                left: 5%;
+        
+            }
 
             h1{
 
@@ -92,18 +83,17 @@
         
         object-fit: cover;
         width: 100%;
+        height: 100vh;
+
+        
+        @media screen and (max-width: 768px){
+        
+            height: 80vh;
+    
+        }
 
         }
 
     }
-    
-    // .sss{
-    
-    //     height: 1000px;
-    //     width: 100%;
-    //     background-color: #fff;
-    //     margin-top: 50%;
-    
-    // }
     
 }

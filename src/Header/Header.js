@@ -5,6 +5,7 @@ import {BiSearchAlt2} from "react-icons/bi"
 import {IoIosCart} from "react-icons/io"
 import {BiSolidUser} from "react-icons/bi"
 import {AiFillCaretDown} from "react-icons/ai"
+import {TbMenu2} from "react-icons/tb"
 
 
 function Header() {
@@ -49,7 +50,7 @@ function Header() {
 
                             </div>
 
-                            <h3>news</h3>
+                            <h3 className="h3-1">news</h3>
 
                         </div>
 
@@ -66,7 +67,7 @@ function Header() {
 
                             </div>
 
-                            <h3>full list</h3>
+                            <h3 className="h3-2">full list</h3>
 
                         </div>
 
@@ -79,24 +80,25 @@ function Header() {
                     <div className="text-div">
 
                         <h2>ilimovl</h2>
-                        <h3>user</h3>
+                       <h3>user</h3>
 
                     </div>
 
                     <div className="img-div">
 
-                        <BiSearchAlt2 className="arrow-4"/>
+                        <a><BiSearchAlt2 className="arrow-4"/></a>
                      
-                        <IoIosCart className="arrow-5"/>
+                        <a><IoIosCart className="arrow-5"/></a>
 
-                        <BiSolidUser className="arrow-6"/>
+                        <a><BiSolidUser className="arrow-6"/></a>
 
-                        <AiFillCaretDown className="arrow-7"/>    
+                        <a><AiFillCaretDown className="arrow-7"/></a>    
 
                     </div>
 
                 </section>
 
+                <TbMenu2 className="menu"/>
 
             </section>
 

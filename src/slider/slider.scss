@@ -1,14 +1,470 @@
-.ddd{
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); 
 
-    width: 100px;
-    height: 100px;
-    background-color: rgb(243, 40, 40);
+.mySwiper-1 {
+
+    width: 100%;
+    height: 30vh;
+
+    @media screen and (max-width: 480px){
+        
+      height: 10vh;
+   
+    } 
+
+    @media screen and (max-width: 768px){
+        
+      height: 20vh;
+  
+    }
+
+  }
+  
+.swiper-slide {
+
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(9, 27, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    @media screen and (max-width: 768px){
+        
+      font-size: 16px;
+
+  }
+
+}
+  
+.swiper-slide{
+  clip-path: polygon(
+    2rem 0,
+    calc(100% + .1rem) 0,
+    calc(100% - 1rem) 100%,
+    -.2rem 110%
+  );
+
+  
+  @media screen and (max-width: 768px){
+        
+    clip-path: polygon(
+      2rem 0,
+      calc(100% + .1rem) 0,
+      calc(100% - 1rem) 100%,
+      -0rem 140%
+    );
+
+}
+    img {
+
+      display: block;
+      width: 100%;
+      height: 30vh;
+      object-fit: cover;
+    
+      @media screen and (max-width: 768px){
+        
+        height: 20vh;
+
+      }
+    
+    }
 
 }
 
-.sds{
+.darksouls{
 
-    display: flex;
+  opacity: .6;
+  transition: all .3s;
+
+  &:hover{
+
+    opacity: 1;
+
+  }
+
+  clip-path: polygon(
+    2rem 0,
+    calc(100% + .1rem) 0,
+    calc(100% - 1rem) 100%,
+    -.2rem 100%
+  );
+
+  @media screen and (max-width: 768px){
+        
+    clip-path: polygon(
+      2rem 0,
+      calc(100% + .1rem) 0,
+      calc(100% - 0rem) 100%,
+      -0rem 100%
+    );
+
+  }
+
+}
+
+.slider-div{
+
+  position: relative;
+  font-family: Inter;
+  width: 100%;
+
+  .mini-slider-div{
+
+    position: absolute;
     width: 100%;
+    right: 80%;
+    top: 25%;
 
+    .saleGreen{
+
+        background-color: #33b902;
+        width: 35%;
+        height: 5vh;
+        color: white;
+        position: absolute;
+        margin-top: -35%;
+        left: -5%;
+        text-align: center;
+  
+        clip-path: polygon(
+      0.2rem 0,
+      calc(100% + 0rem) 0,
+      calc(100% - .3rem) 100%,
+      0rem 100%
+      );
+
+      @media screen and (max-width: 768px){
+        
+        left: 13%;
+        width: 35%;
+        height: 4vh;
+    
+        clip-path: polygon(
+          0.2rem 0,
+          calc(100% + 0rem) 0,
+          calc(100% - .2rem) 100%,
+          0rem 100%
+        );
+    
+      }
+  
+        opacity: 1;
+      
+        &:hover{
+      
+          opacity: 1;
+      
+        }
+  
+        h1{
+  
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          width: 100%;
+
+          @media screen and (max-width: 768px){
+        
+            font-size: 10px;
+        
+          }
+  
+      }
+
+    }
+
+    .sale{
+
+      background-color: #950000;
+      width: 35%;
+      height: 5vh;
+      color: white;
+      position: absolute;
+      margin-top: -35%;
+      left: -5%;
+      text-align: center;
+
+      clip-path: polygon(
+    0.2rem 0,
+    calc(100% + 0rem) 0,
+    calc(100% - .3rem) 100%,
+    0rem 100%
+  );
+
+  @media screen and (max-width: 768px){
+        
+    left: 13%;
+    width: 35%;
+    height: 4vh;
+
+    clip-path: polygon(
+      0.2rem 0,
+      calc(100% + 0rem) 0,
+      calc(100% - .2rem) 100%,
+      0rem 100%
+    );
+
+  }
+
+      opacity: 1;
+    
+      &:hover{
+    
+        opacity: 1;
+    
+      }
+
+      h1{
+
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+
+        @media screen and (max-width: 768px){
+        
+          font-size: 10px;
+      
+        }
+
+      }
+
+    }
+
+    h1{
+
+      color: white;
+      font-weight: 900;
+      font-size: 18px;
+      width: 160%;
+
+      opacity: 1;
+    
+      &:hover{
+    
+        opacity: 1;
+    
+      }
+    
+      @media screen and (max-width: 768px){
+        
+          font-size: 12px;
+
+       }
+
+    }
+
+    .star-div{
+
+      color: white;
+      display: flex;
+      position: absolute;
+      right: 0%;
+
+      @media screen and (max-width: 768px){
+        
+        right: -25%;
+    
+      }
+
+    }
+        
+  }
+
+}
+
+.special-mini-div{
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(2, 26, 48);
+
+  .special-div{
+
+    h1{
+
+      position: absolute;
+      left: 10%;
+      top: 20%;
+      font-family: Inter;
+      font-size: 40px;
+      font-weight: 600;
+      color: white;
+
+    }
+
+    button{
+
+      position: absolute;
+      right: 10%;
+      top: 50%;
+      width: 8%;
+      height: 6vh;
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 14px;
+      background: none;
+      border: white 2px solid;
+      transition: all .3s;
+
+      @media screen and (max-width: 768px){
+        
+        width: 15%;
+    
+      }
+
+      &:hover{
+
+        border-right: 30px solid transparent;
+        border-left: 30px solid transparent;
+        transition: all .3s;
+        font-size: 10px;
+        width: 8%;
+
+        @media screen and (max-width: 768px){
+        
+          width: 15%;
+      
+        }
+
+    }   
+      &:active{
+
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        transition: all .1s;
+        font-size: 12px;
+        transform: scale(90%);
+
+    }  
+
+      a{
+
+        text-decoration: none;
+        color: white;
+
+      }
+
+    }
+
+  }
+
+}
+
+.mySwiper-2 {
+
+  width: 100%;
+  height: 50vh;
+
+  @media screen and (max-width: 768px){
+        
+    height: 45vh;
+
+  }
+
+}
+
+.title-div{
+
+  text-align: center;
+
+  .star-div-2{
+
+    color: white;
+    display: flex;
+    position: absolute;
+    left: 20%;
+    bottom: 10%;
+
+    @media screen and (max-width: 768px){
+        
+      font-size: 12px;
+      bottom: 30%;
+  
+    }
+
+  }
+
+  h1{
+
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    font-family: Inter;
+    margin: auto;
+    margin-top: 7%;
+    border-bottom: 1px solid;
+    padding-bottom: 7%;
+    border-right: 30px solid transparent;
+    width: 50%;
+    border-left: 30px solid transparent;
+
+    @media screen and (max-width: 768px){
+        
+      font-size: 12px;
+      width: 60%;
+  
+    }
+
+  }
+
+  .title-text{
+
+    color: white;
+    display: flex;
+    font-family: Inter;
+    position: absolute;
+    bottom: 6.5%;
+    right: 15%;
+    gap: 5%;
+
+    @media screen and (max-width: 768px){
+        
+      bottom: 26.7%;
+      right: 13%;
+  
+    }
+
+    .green-text{
+
+      color: #33b902;
+
+    }
+
+    .red-text{
+
+      color: #950000;
+
+    }
+
+    h2{
+
+      font-size: 14px;
+
+      @media screen and (max-width: 768px){
+        
+        font-size: 10px;
+    
+      }
+
+    }
+
+    h3{
+
+      text-decoration: line-through;
+      color: gray;
+      font-size: 10px;
+
+      @media screen and (max-width: 768px){
+        
+        font-size: 8px;
+    
+      }
+
+    }
+
+  }
+  
 }

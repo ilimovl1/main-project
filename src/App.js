@@ -2,6 +2,10 @@ import './index.scss';
 import Header from './Header/Header';
 import Content from './maincontent/Content';
 import Slider from "./slider/slider"
+import Columns from './columns/column';
+import Second from './secondMain/second';
+import Footer from './footer/footer';
+import LastFooter from './lastfooter/lastfooter';
 
 function App() {
 
@@ -21,10 +25,10 @@ function App() {
   
   <div className='Main'>
 
-    <div class="preloader">
-      <div class="preloader__row">
-        <div class="preloader__item"></div>
-        <div class="preloader__item"></div>
+    <div className="preloader">
+      <div className="preloader__row">
+        <div className="preloader__item"></div>
+        <div className="preloader__item"></div>
       </div>
     </div>
 
@@ -33,9 +37,11 @@ function App() {
     <Header/>
     <Content/>
     <Slider/>
-        
-    
-    
+    <Columns/>
+    <Second/>
+    <Footer/>
+    <LastFooter/>
+
    </div>
   
   )

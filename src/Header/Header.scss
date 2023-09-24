@@ -2,17 +2,26 @@
 
 .mini-div{
 
-justify-content: space-around;
-display: flex;
-background-color: #021629;
-width: 100%;
-height: 12vh;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-opacity: .7;
-z-index: 3;
+    justify-content: space-around;
+    display: flex;
+    background-color: #021629;
+    width: 100%;
+    height: 12vh;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: .7;
+    z-index: 130;
+
+    @media screen and (max-width: 768px){
+        
+        opacity: 1;
+        width: 100%;
+        height: 12vh;
+
+    }
 
     .mini-div-1{
 
@@ -20,16 +29,38 @@ z-index: 3;
         display: flex;
         width: 50%;
 
+        @media screen and (max-width: 768px){
+        
+            width: 50%;
+            height: 8vh;
+    
+        }
+
         .logo-div{
         
             width: 20%;
+
+            @media screen and (max-width: 480px){
+        
+                width: 40%;
+             
+            }
             
             img{
         
                 width: 100%;
-                height: 40%;
+                height: 5vh;
                 margin-left: -10%;
                 margin-top: 15%;
+
+                @media screen and (max-width: 768px){
+        
+                    width: 150%;
+                    height: 5vh;
+                    margin-left: -75%;
+                    margin-top: 25%;
+            
+                }
         
             }
         
@@ -39,6 +70,12 @@ z-index: 3;
 
             width: 5%;
             height: 100%;
+
+            @media screen and (max-width: 480px){
+        
+                display: none;
+             
+            }
 
             .mini-text-div-1{
 
@@ -56,6 +93,14 @@ z-index: 3;
                         margin-left: 5%;
                         margin-top: 10%;
                         color: white;
+
+                        @media screen and (max-width: 768px){
+        
+                            width: 10%;
+                            height: 5vh;
+                            margin-top: 14%;
+                    
+                        }
                 
                     }
     
@@ -66,6 +111,12 @@ z-index: 3;
                     font-size: 14px;
                     color: rgb(255, 255, 255);
                     margin-top: 5%;
+
+                    @media screen and (max-width: 768px){
+        
+                        margin-top: 25%;
+                
+                    }
     
                 }
 
@@ -81,6 +132,14 @@ z-index: 3;
 
                     display: flex;
 
+                    @media screen and (max-width: 768px){
+        
+                        margin-left: 25%;
+                        margin-top: 13%;
+                
+                    }
+            
+
                     .arrow-2{
         
                         width: 4.5%;
@@ -88,6 +147,14 @@ z-index: 3;
                         margin-left: 3%;
                         margin-top: 9%;
                         color: white;
+
+                        @media screen and (max-width: 768px){
+        
+                            width: 10%;
+                            height: 5vh;
+                            margin-top: 9%;
+                    
+                        }
                 
                     }
     
@@ -100,7 +167,25 @@ z-index: 3;
                     margin-top: 5%;
                     line-height: 140%;
 
+                    @media screen and (max-width: 768px){
+        
+                        margin-top: 18%;
+                
+                    }
+
                 }
+
+                
+                .h3-1{
+
+                    @media screen and (max-width: 768px){
+        
+                        margin-top: -20%;
+                        margin-left: 25%;
+                
+                    }
+                        
+                }   
 
             }
 
@@ -114,6 +199,13 @@ z-index: 3;
 
                     display: flex;
 
+                    @media screen and (max-width: 768px){
+        
+                        margin-left: 30%;
+                        margin-top: 7%;
+                
+                    }
+
                     .arrow-3{
         
                         width: 3.5%;
@@ -122,9 +214,29 @@ z-index: 3;
                         margin-top: 7.5%;
                         color: #fff;
 
+                        @media screen and (max-width: 768px){
+        
+                            width: 8%;
+                            height: 5vh;
+                            margin-top: 11%;
+                    
+                    
+                        }
+
+                    }
+                        
+                }
+
+                .h3-2{
+
+                    @media screen and (max-width: 768px){
+        
+                        margin-top: -18%;
+                        margin-left: 30%;
+                
                     }
     
-                }
+            }
                 
                 h2{
     
@@ -132,6 +244,12 @@ z-index: 3;
                     color: rgb(255, 255, 255);
                     margin-top: 4%;
     
+                    @media screen and (max-width: 768px){
+        
+                        margin-top: 14%;
+                
+                    }
+
                 }
 
             }
@@ -143,10 +261,23 @@ z-index: 3;
                 margin-top: -8%;
 
                 font-family: serif;
+
+                transition: all .2s;
+
+                &:hover{
+
+                    color: white;
+                    transition: all .2s;
+
+                }
+
+                @media screen and (max-width: 768px){
+        
+                    margin-top: -18%;
+            
+                }
                 
-
             }
-
 
         }
 
@@ -155,15 +286,22 @@ z-index: 3;
     .mini-div-2{
 
         display: flex;
+        justify-content: space-between;
         color: white;
+
+        @media screen and (max-width: 480px){
+        
+            display: none;
+         
+        }
 
         .text-div{
 
             width: 20%;
             height: 100%;
-            line-height: 10%;
-            margin-left: -200%;
-            margin-top: 40%;
+            line-height: 10%;            
+            margin-top: 20%;
+            margin-left: -70%;
             font-size: 12px;
             font-weight: 200;
 
@@ -174,52 +312,87 @@ z-index: 3;
                 font-family: serif;
                 margin-top: 5%;
 
+                transition: all .2s;
+
+                &:hover{
+
+                    color: white;
+                    transition: all .2s;
+
+                }
+
+                @media screen and (max-width: 768px){
+        
+                    margin-top: 5%;
+                    font-size: 12px;
+            
+                }
+
             }
 
         }
 
         .img-div{
 
-            width: 10%;
-            height: 15%;
-            margin-top: 2%;
-            margin-left: 84%;
+            width: 100%;
+            height: 100%;
+            margin-top: 30%;
             display: flex;
             justify-content: space-between;
-
-            .arrow-4{
-
+            
+            a{
                 width: 20%;
-                height: 20%;
+                height: 10vh;
+
+                .arrow-4{
+
+                    width: 100%;
+                    height: 25%;
+
+                }
+        
+                .arrow-5{
+        
+                    width: 100%;
+                    height: 25%;
+        
+                }
+        
+                .arrow-6{
+        
+                    width: 100%;
+                    height: 25%;
+        
+                }
+        
+                .arrow-7{
+        
+                    width: 100%;
+                    height: 10%;
+                    margin-top: -10%;
+                    margin-left: -50%;
+        
+                }
 
             }
-    
-            .arrow-5{
-    
-                width: 20%;
-                height: 20%;
-    
-            }
-    
-            .arrow-6{
-    
-                width: 20%;
-                height: 20%;
-    
-            }
-    
-            .arrow-7{
-    
-                width: 10%;
-                height: 10%;
-                margin-top: 4%;
-                margin-left: -10%;
-    
-            }
-    
 
         }
 
     }
 
 }   
+
+.menu{
+
+    display: none;
+
+    @media screen and (max-width: 480px){
+        
+        display: grid;
+        color: #fff;
+        font-size: 32px;
+        margin-top: 5%;
+     
+    }
+
+}

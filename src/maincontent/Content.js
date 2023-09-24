@@ -1,18 +1,25 @@
+import React from "react";
 import "./Content.scss"
-import diablo from "./content-img/diablo-3-reaper-of-souls-4k-v9.jpg"
-import { Swiper, SwiperSlide } from 'swiper/react';
-import Sofa from "../slider/slider";
-import { Navigation, Pagination, Mousewheel } from 'swiper/modules';
+import diablo from "./content-img/diablo-3-reaper-of-souls-4k-v9.jpg";
 
 function Content() {
 
+    React.useEffect(()=> {
+
+        window.addEventListener("scroll", function() {
+            const distance = window.scrollY;
+            document.querySelector(".header").style.transform = `translateY(${distance *
+              .6}px)`;
+            document.querySelector(
+              ".sss"
+            ).style.transform = `translateY(${distance * 0.3}px)`;
+          });
+    }) 
+   
     return(
 
-        <section className="Main">
-
-            <div className="border-div-1"></div>
-            <div className="border-div-2"></div>
-
+        <section className="header">
+            
             <div className="img-div">
 
                 <div className="txt-div">
@@ -26,7 +33,7 @@ function Content() {
 
                 </div>
 
-                <img src={diablo} alt="asdf"/>
+                <img className="image" src={diablo} alt="asdf"/>
 
             </div>
 
