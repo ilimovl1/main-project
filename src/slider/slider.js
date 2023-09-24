@@ -28,7 +28,7 @@ function Slider() {
           <Swiper
             loop={true}
             slidesPerView={2}
-            spaceBetween={-31}
+            spaceBetween={-31} 
             freeMode={true}
             modules={[FreeMode, Pagination]}
             className="mySwiper-1"

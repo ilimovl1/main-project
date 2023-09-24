@@ -13,9 +13,9 @@ footer{
             
         }
 
-        @media screen and (max-width: 420px){
+        @media screen and (max-width: 375px){
         
-            height: 44vh;
+            height: 40vh;
 
          }
 
@@ -24,16 +24,16 @@ footer{
             margin-top: -85%;
             z-index: -10;
 
-            @media screen and (max-width: 768px){
+                @media screen and (max-width: 768px){
         
                 position: absolute;
                 top: -157%;
              
                }
 
-               @media screen and (max-width: 420px){
+               @media screen and (max-width: 375px){
         
-                    top: -180%;
+                    top: -190%;
              
                 }
 
@@ -48,6 +48,15 @@ footer{
                 @media screen and (max-width: 768px){
         
                     margin-top: -100%;
+
+                    filter: hue-rotate(200deg)
+                    contrast(1.1)
+                    brightness(90%)
+                    blur(.5px)
+                    ;
+
+                    width: 150%;
+                    margin-left: -25%;
                  
                    }
         
@@ -69,7 +78,7 @@ footer{
                  
                 }
 
-                @media screen and (max-width: 420px){
+                @media screen and (max-width: 375px){
         
                     display: none;
        
@@ -100,7 +109,7 @@ footer{
 
                 }
 
-                @media screen and (max-width: 420px){
+                @media screen and (max-width: 375px){
         
                     display: none;
        
@@ -239,9 +248,9 @@ footer{
                  
                 }
 
-                @media screen and (max-width: 420px){
+                @media screen and (max-width: 375px){
         
-                    height: 10vh;
+                    height: 7vh;
                     margin-top: -15%;
                  
                 }
@@ -258,6 +267,13 @@ footer{
         
                         margin-top: 5%;
                      
+                    }
+
+                    @media screen and (max-width: 375px){
+            
+                        margin-top: 5%;
+                        font-size: 12px;
+                    
                     }
 
                 }

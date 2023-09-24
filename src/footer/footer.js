@@ -31,7 +31,7 @@ function Footer() {
               ".cont-div"
             ).style.transform = `translateY(${distance * 0.3}px)`;
           })
-    })
+    }) 
 
   return (
   

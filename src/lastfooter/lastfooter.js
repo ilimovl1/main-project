@@ -22,7 +22,7 @@ function LastFooter() {
     
   return (
   
-    <footer>
+    <footer> 
 
         <section className='section-2'>
 
