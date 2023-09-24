@@ -117,8 +117,8 @@ function Footer() {
               </div>
 
             </div>
+            
             <div className='mini-buy-div-4'>
-
                 
                 <div>
 

@@ -12,7 +12,7 @@
             left: 15%;
             color: white;
 
-            @media screen and (max-width: 480px){
+            @media screen and (max-width: 420px){
         
                 text-align: center;
              
@@ -30,6 +30,14 @@
                 font-weight: 600;
                 line-height: 10%;
                 font-family: Inter;
+
+                @media screen and (max-width: 420px){
+        
+                    font-size: 40px;
+                    margin-left: 5%;
+                    width: 100%;
+                 
+                }
 
             }
 

@@ -37,7 +37,7 @@ function LastFooter() {
                     <div className='mini-call-div-1'>
                       
                       <BiLogoDiscord className='discord'/>
-                    
+                     
                     </div>
 
                     <div className='mini-call-div-2'>

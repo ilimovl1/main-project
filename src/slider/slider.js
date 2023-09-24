@@ -212,7 +212,7 @@ function Slider() {
                 <h1>Dragons Dogma</h1>
                 <div className="star-div-2">
                   <AiFillStar/>
-                  <AiFillStar/>
+                  <AiFillStar/> 
                   <AiFillStar/>
                   <AiFillStar/>
                   <BiSolidStarHalf/>

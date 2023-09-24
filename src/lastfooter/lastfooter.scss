@@ -13,9 +13,9 @@ footer{
             
         }
 
-        @media screen and (max-width: 480px){
+        @media screen and (max-width: 420px){
         
-            height: 48vh;
+            height: 44vh;
 
          }
 
@@ -30,6 +30,12 @@ footer{
                 top: -157%;
              
                }
+
+               @media screen and (max-width: 420px){
+        
+                    top: -180%;
+             
+                }
 
             img{
                 
@@ -63,7 +69,7 @@ footer{
                  
                 }
 
-                @media screen and (max-width: 480px){
+                @media screen and (max-width: 420px){
         
                     display: none;
        
@@ -94,7 +100,7 @@ footer{
 
                 }
 
-                @media screen and (max-width: 480px){
+                @media screen and (max-width: 420px){
         
                     display: none;
        
@@ -230,6 +236,13 @@ footer{
                 @media screen and (max-width: 768px){
         
                     margin-top: -12%;
+                 
+                }
+
+                @media screen and (max-width: 420px){
+        
+                    height: 10vh;
+                    margin-top: -15%;
                  
                 }
 
