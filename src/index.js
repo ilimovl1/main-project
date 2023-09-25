@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
-import Store from './Store';
+// import Store from './Store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -10,8 +10,8 @@ root.render(
 
     
 
-    <App />,
-    <Store/>
+    <App />
+    // <Store/>
   
 
 
