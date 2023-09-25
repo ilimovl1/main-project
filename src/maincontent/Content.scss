@@ -19,6 +19,13 @@
              
             }
 
+            @media screen and (max-width: 400px){
+        
+                text-align: center;
+                width: 100%;
+             
+            }
+
             @media screen and (max-width: 768px){
             
                 left: 5%;
@@ -40,6 +47,13 @@
                  
                 }
 
+                @media screen and (max-width: 400px){
+        
+                    font-size: 34px;
+                    margin-left: -6%;
+                 
+                }
+
             }
 
             h4{
@@ -53,6 +67,13 @@
                     font-size: 12px;
                     margin-left: -5%;
                     width: 100%;
+                 
+                }
+
+                @media screen and (max-width: 400px){
+        
+                    font-size: 14px;
+                    margin-left: -7%;
                  
                 }
 
@@ -77,12 +98,32 @@
                  
                 }
 
+                @media screen and (max-width: 400px){
+        
+                    font-size: 18px;
+                    width: 35%;
+                    margin-left: -8%;
+                 
+                }
+
                 &:hover{
 
                     border-right: 30px solid transparent;
                     border-left: 30px solid transparent;
                     transition: all .3s;
                     font-size: 20px;
+
+                    @media screen and (max-width: 400px){
+        
+                        font-size: 16px;
+                 
+                    }
+
+                    @media screen and (max-width: 375px){
+        
+                        font-size: 16px;
+                 
+                    }
 
                 }   
                 &:active{
@@ -91,6 +132,18 @@
                     border-bottom: 30px solid transparent;
                     transition: all .1s;
                     font-size: 20px;
+
+                    @media screen and (max-width: 400px){
+        
+                        font-size: 16px;
+                 
+                    }
+
+                    @media screen and (max-width: 375px){
+        
+                        font-size: 16px;
+                 
+                    }
 
                 }  
 
@@ -117,7 +170,7 @@
     
         }
 
-        }
+        } 
 
     }
     

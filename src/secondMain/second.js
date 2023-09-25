@@ -122,7 +122,7 @@ function Second() {
 
                 <div className='all-text'>
 
-                    <h1 className='blood'><a href='#'>Bloodborne - First Try!</a></h1>
+                    <h1 className='blood'><a href='#'>Review Kingdoms of Amalur</a></h1>
                     <div className='t-div'>    
                         <FaTags className='tags'/>
                         <h2><a href='#'>Bloodborne</a>,<a href='#'>first try</a>,<a href='#'>first boss problem</a>,<a href='#'>newbie game</a></h2>
@@ -143,7 +143,7 @@ function Second() {
  
             </div>
 
-        </section>    
+        </section>     
 
     </main>
   

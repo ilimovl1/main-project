@@ -10,6 +10,8 @@ import {TbMenu2} from "react-icons/tb"
 
 function Header() {
 
+    const [store, setStore] = React.useState(true)
+
     return(
 
         <header className="Main">
@@ -29,7 +31,7 @@ function Header() {
                         <div className="mini-text-div-1">
 
                             <div>
-                                <h2>STORE</h2> 
+                                <h2 onClick={() => setStore(!store)}>STORE</h2> 
                                 <AiFillCaretDown className="arrow-1"/>
                             </div>
                             
@@ -81,8 +83,8 @@ function Header() {
 
                         <h2>ilimovl</h2>
                        <h3>user</h3>
-
-                    </div>
+ 
+                    </div> 
 
                     <div className="img-div">
 
@@ -101,6 +103,12 @@ function Header() {
                 <TbMenu2 className="menu"/>
 
             </section>
+
+            <div className={store? "show" : "hide"}>
+
+                <h1>Store</h1>
+
+            </div>
 
         </header>
 

@@ -19,6 +19,12 @@
 
       }
 
+      @media screen and (max-width: 400px){
+        
+        height: 50vh;             
+                 
+      }
+
     .container{
 
         img{
@@ -49,6 +55,15 @@
                 margin-top: -60%;
                 margin-left: -15%;
            
+            }
+
+            @media screen and (max-width: 400px){
+        
+                height: 60vh;
+                width: 140%;
+                margin-left: -20%;    
+                margin-top: -55%;   
+                 
             }
     
         }
@@ -84,6 +99,14 @@
               
             } 
 
+            @media screen and (max-width: 400px){
+        
+                width: 140%;
+                height: 68vh;
+                margin-top: -105%;
+                 
+            }
+
         }
 
         .container-div{
@@ -108,6 +131,12 @@
              
               }
 
+              @media screen and (max-width: 400px){
+        
+                    margin-top: -85%;
+                 
+              }
+
             h1{
 
                 font-size: 100px;   
@@ -122,6 +151,12 @@
         
                       font-size: 40px;
 
+                  }
+
+                  @media screen and (max-width: 400px){
+        
+                    font-size: 44px; 
+                 
                   }
                 
                 p{
@@ -138,6 +173,12 @@
                 margin-top: -5%;
 
                 @media screen and (max-width: 375px){
+        
+                    font-size: 36px;
+                 
+                }
+
+                @media screen and (max-width: 400px){
         
                     font-size: 36px;
                  
@@ -171,6 +212,12 @@
              
       }
 
+      @media screen and (max-width: 400px){
+        
+        height: 220vh;             
+                 
+      }
+
     .late{
 
         font-size: 48px;
@@ -183,6 +230,13 @@
             margin-left: 5%;
             padding-top: 5%;
          
+        }
+
+        @media screen and (max-width: 400px){
+        
+            font-size: 32px;  
+            padding-top: 6%;
+                 
         }
 
     }
@@ -233,6 +287,12 @@
              
               }
 
+            @media screen and (max-width: 400px){
+        
+                margin-top: -25%;
+           
+            }
+
         }
 
         .all-text{
@@ -261,10 +321,17 @@
 
                   @media screen and (max-width: 375px){
         
-                    margin-left: 4%;
+                    margin-left: 8%;
                     font-size: 20px;
              
                   }    
+
+                  @media screen and (max-width: 400px){
+        
+                    font-size: 20px;
+                    margin-left: 7%;
+                 
+                  }
 
               } 
 
@@ -282,6 +349,13 @@
                     font-size: 20px;
              
                   }    
+
+                  @media screen and (max-width: 400px){
+        
+                    font-size: 20px;
+                    margin-left: 11%; 
+                 
+                  }
 
               } 
 
@@ -354,6 +428,13 @@
                           font-size: 20px;
                           margin-left: 4%;
              
+                      }
+
+                      @media screen and (max-width: 400px){
+        
+                            font-size: 20px;
+                            margin-left: 3%;
+                 
                       }
         
 

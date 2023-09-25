@@ -22,7 +22,7 @@ function Content() {
             
             <div className="img-div">
 
-                <div className="txt-div">
+                <div className="txt-div"> 
 
                     <h1>DIABLO III:
                         <p>REAPER OF SOULS</p></h1>

@@ -57,7 +57,7 @@ function Slider() {
 
             <div className="special-div">
 
-              <h1>Specials</h1>
+              <h1>Specials</h1> 
 
               <button><a href="#">See More</a></button>
 

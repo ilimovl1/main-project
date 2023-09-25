@@ -12,13 +12,25 @@
        
         }
 
+        @media screen and (max-width: 400px){
+        
+          height: 100vh;       
+           
+        }
+
         .cont-div{
 
           @media screen and (max-width: 375px){
         
             margin-top: -25%;
          
-        }
+          }
+
+          @media screen and (max-width: 400px){
+          
+              margin-top: -25%;       
+            
+          }
 
             img{
     
@@ -39,6 +51,13 @@
                   width: 150%;
                
                 }
+
+                @media screen and (max-width: 400px){
+        
+                  width: 200%;
+                  margin-left: -60%;
+           
+                }
     
             }
 
@@ -57,11 +76,18 @@
                
                 }
 
+                @media screen and (max-width: 400px){
+        
+                  font-size: 32px;
+                  margin-top: -100%;
+           
+                }
+
             }
 
             .carusel-div{
 
-                position: relative;
+                position: relative; 
                 margin-top: 0%;
                 height: 100vh;
                 width: 100%;
@@ -81,6 +107,12 @@
                    
                     }
 
+                    @media screen and (max-width: 400px){
+        
+                      width: 70%;
+           
+                    }
+
                     .sw-slide{
                         
                         background: none;
@@ -91,6 +123,13 @@
                             height: 20vh;
                             margin-top: 1%;
                             filter: saturate(3);
+
+                            @media screen and (max-width: 400px){
+        
+                                width: 100%;
+                                margin-left: 5%;
+           
+                            }
     
                         }
 
@@ -128,6 +167,12 @@
              
           }
 
+          @media screen and (max-width: 400px){
+        
+            height: 70vh;     
+           
+          }
+
         h1{
 
             color: white;
@@ -141,6 +186,12 @@
         
               font-size: 28px;     
              
+            }
+
+            @media screen and (max-width: 400px){
+        
+              font-size: 28px;   
+           
             }
 
         }
@@ -179,6 +230,12 @@
                     height: 22vh;
        
                  }
+
+                 @media screen and (max-width: 400px){
+        
+                    height: 22vh;
+           
+                 }
                   
                 @media screen and (max-width: 768px){
         
@@ -215,6 +272,13 @@
              
                        }
 
+                      @media screen and (max-width: 400px){
+        
+                        font-size: 28px;  
+                        margin-left: 8%;
+               
+                      }  
+
                     }
 
                     h2{
@@ -226,6 +290,12 @@
                           font-size: 14px;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 14px;
+               
+                       } 
 
                     }
 
@@ -240,6 +310,14 @@
                           margin-left: 25%;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 10px;
+                          width: 50%;
+                          margin-left: 25%;
+               
+                       } 
 
                     }
 
@@ -266,9 +344,14 @@
                   @media screen and (max-width: 375px){
         
                     height: 22vh;
-                    width: 25%;
        
                  }
+
+                 @media screen and (max-width: 400px){
+        
+                    height: 22vh;
+               
+                 } 
                   
                 @media screen and (max-width: 768px){
         
@@ -305,6 +388,13 @@
            
                      }
 
+                     @media screen and (max-width: 400px){
+        
+                        font-size: 32px;
+                        margin-left: 10%;
+               
+                     } 
+
                     }
 
                     h2{
@@ -317,6 +407,13 @@
                           margin-top: 10%;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 14px;
+                          margin-top: 10%;
+               
+                       } 
 
                     }
 
@@ -331,6 +428,15 @@
                           margin-left: 25%;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 10px;
+                          width: 50%;
+                          margin-left: 22%;
+                          margin-top: -1%;
+               
+                       } 
 
                     }
 
@@ -357,9 +463,14 @@
                   @media screen and (max-width: 375px){
         
                     height: 22vh;
-                    width: 25%;
        
                  }
+
+                 @media screen and (max-width: 400px){
+        
+                    height: 22vh;
+               
+                 } 
 
                   @media screen and (max-width: 768px){
         
@@ -394,7 +505,14 @@
                         font-size: 28px;
                         margin-left: 10%;
            
-                     }
+                      }
+
+                      @media screen and (max-width: 400px){
+        
+                        font-size: 34px;
+                        margin-left: 10%;
+               
+                      } 
 
                     }
 
@@ -407,6 +525,12 @@
                           font-size: 14px;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 14px;
+               
+                       } 
 
                     }
 
@@ -421,6 +545,14 @@
                           margin-left: 18%;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 10px;
+                          width: 60%;
+                          margin-left: 18%;
+               
+                       } 
 
                     }
 
@@ -447,9 +579,14 @@
                   @media screen and (max-width: 375px){
         
                     height: 22vh;
-                    width: 25%;
        
                  }
+
+                 @media screen and (max-width: 400px){
+        
+                    height: 22vh;     
+               
+                 } 
 
                   @media screen and (max-width: 768px){
         
@@ -483,7 +620,13 @@
         
                         font-size: 28px;
            
-                     }
+                      }
+
+                      @media screen and (max-width: 400px){
+        
+                        font-size: 34px;
+               
+                      } 
 
                     }
 
@@ -496,6 +639,12 @@
                           font-size: 14px;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 14px;
+               
+                       } 
 
                     }
 
@@ -510,6 +659,14 @@
                           margin-left: 25%;
              
                        }
+
+                       @media screen and (max-width: 400px){
+        
+                          font-size: 10px;
+                          width: 70%;
+                          margin-left: 10%;
+               
+                       } 
 
                     }
 

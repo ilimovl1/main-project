@@ -25,7 +25,7 @@ function LastFooter() {
     <footer> 
 
         <section className='section-2'>
-
+ 
             <div className='cont-divs'>
 
                 <img src={berserk} />

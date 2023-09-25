@@ -50,7 +50,7 @@ function Footer() {
                   <Swiper
                       loop={true}
                       slidesPerView={2}
-                      spaceBetween={-20}
+                      spaceBetween={-20} 
                       freeMode={true}
                       modules={[FreeMode, Pagination]}
                       className="mySwiper-3"
@@ -71,7 +71,7 @@ function Footer() {
                       
                       <SwiperSlide className='sw-slide'><img src={hat} /></SwiperSlide>
                     
-                  </Swiper>
+                  </Swiper> 
 
                 </div> 
 
