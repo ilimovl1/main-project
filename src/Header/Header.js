@@ -104,11 +104,11 @@ function Header() {
 
             </section>
 
-            <div className={store? "show" : "hide"}>
+            {/* <div className={store? "show" : "hide"}>
 
                 <h1>Store</h1>
 
-            </div>
+            </div> */}
 
         </header>
 
