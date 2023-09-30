@@ -42,7 +42,7 @@ function Store() {
   
   <div className='Main'>
     
-    <Header/>
+    {/* <Header/> */}
 
     <Swiper
             loop={true}

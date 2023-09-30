@@ -33,7 +33,7 @@ function App() {
       </div>
     </div>
 
-        <Header/>
+        {/* <Header/> */}
         <Content/>
         <Slider/>
         <Columns/>

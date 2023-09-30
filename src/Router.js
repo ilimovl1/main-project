@@ -4,6 +4,7 @@ import Store from "./Store/Store"
 import App from "./App"
 import Login from './login/login';
 import About from './about/about';
+import Header from './Header/Header';
 
 
 
@@ -31,6 +32,8 @@ function Router() {
         <div className="preloader__item"></div>
       </div>
     </div>
+    
+    <Header/>
 
     <Routes>
       

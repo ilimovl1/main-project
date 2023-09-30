@@ -37,7 +37,7 @@ console.log(data);
 
         <section>
 
-            <Header/>
+            {/* <Header/> */}
             <Columns/>
             <img className="metro" src={Metro}/>
 

@@ -22,7 +22,7 @@ function About() {
   
     <section className='section'>
 
-        <Header/>
+        {/* <Header/> */}
         <Columns/>
 
         <div className='image-div'>
