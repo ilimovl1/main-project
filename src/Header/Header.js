@@ -6,11 +6,18 @@ import {IoIosCart} from "react-icons/io"
 import {BiSolidUser} from "react-icons/bi"
 import {AiFillCaretDown} from "react-icons/ai"
 import {TbMenu2} from "react-icons/tb"
+import { Link} from "react-router-dom";
+import {AiOutlineClose} from "react-icons/ai"
 
 
 function Header() {
 
-    const [store, setStore] = React.useState(true)
+    const [store, setStore] = React.useState(false)
+
+    const [modal, setModal] = React.useState(false)
+
+    console.log(modal);
+
 
     return(
 
@@ -100,15 +107,33 @@ function Header() {
 
                 </section>
 
-                <TbMenu2 className="menu"/>
+                <div className="main-menu">{modal? <AiOutlineClose onClick={() => setModal(!modal)} className="menu-2"/> : <TbMenu2 onClick={() => setModal(!modal)} className="menu-1"/>}</div> 
 
             </section>
 
-            {/* <div className={store? "show" : "hide"}>
+            <div className={store? "show" : "hide"}>
 
-                <h1>Store</h1>
+                <Link className="h1" to="/store">Store</Link>
 
-            </div> */}
+                <Link className="h1" to="/">Main</Link>
+
+                <Link className="h1" to="/login">Login</Link>
+                
+                <Link className="h1" to="/cart">About</Link>
+            
+            </div>
+
+            <div className={modal? "show1" : "hide1"}>
+
+                <Link className="h2" to="/store">Store</Link>
+
+                <Link className="h2" to="/">Main</Link>
+
+                <Link className="h2" to="/login">Login</Link>
+
+                <Link className="h2" to="/cart">About</Link>
+
+            </div>
 
         </header>
 

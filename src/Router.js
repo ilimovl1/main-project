@@ -1,14 +1,13 @@
 import './index.scss';
-import Header from './Header/Header';
-import Content from './maincontent/Content';
-import Slider from "./slider/slider"
-import Columns from './columns/column';
-import Second from './secondMain/second';
-import Footer from './footer/footer';
-import LastFooter from './lastfooter/lastfooter';
+import { Route, Routes } from 'react-router-dom';
+import Store from "./Store/Store"
+import App from "./App"
+import Login from './login/login';
+import About from './about/about';
 
 
-function App() {
+
+function Router() {
 
   window.onload = function () {
     document.body.classList.add('loaded');
@@ -33,13 +32,17 @@ function App() {
       </div>
     </div>
 
-        <Header/>
-        <Content/>
-        <Slider/>
-        <Columns/>
-        <Second/>
-        <Footer/>
-        <LastFooter/> 
+    <Routes>
+      
+      <Route path='/store' element={<Store/>}/>
+
+      <Route path='/' element={<App/>}/>
+
+      <Route path='/login' element={<Login/>}/>
+
+      <Route path='/cart' element={<About/>}/>
+
+    </Routes> 
 
    </div>
   
@@ -47,4 +50,4 @@ function App() {
   
 }
 
-export default App;
+export default Router;

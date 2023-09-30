@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); 
+
+.Main{
+
+    width: 100%; 
+
+}
+
+.Swiper{
+
+    width: 100%;
+    height: 100vh;
+    margin-top: 0%;
+    background-color: rgb(9, 27, 44);
+
+    .SwiperSlide{
+        
+        margin: auto;
+        width: 100%;
+        height: 100%;
+
+        .sekiro{
+
+            filter: hue-rotate(180deg);
+
+        }
+
+        .gerald{
+
+            filter: hue-rotate(180deg)
+            saturate(.5)
+            ;
+
+        }
+
+        img{
+
+            width: 100%;
+            height: 100%;
+
+            opacity: .7;
+            transition: all .5s;
+
+            &:hover{
+
+                opacity: 1;
+                transition: all .5s;
+
+            }
+
+        }   
+
+    }
+
+}
+
+.card-section{
+
+    width: 70%;
+    margin-left: 4%;   
+    height: 100%;
+    max-height: 500vh;
+    background-color: rgb(9, 27, 44);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 120;
+    gap: 1%;
+
+    @media screen and (max-width: 768px){
+        
+        height: 100%;   
+        max-height: 100%;            
+                        
+    }
+
+        .div-1{
+
+            width: 300px;
+            height: 9%;
+            background: none;
+            margin: auto;
+            margin-top: 5%;
+
+            @media screen and (max-width: 768px){
+        
+                width: 400px;   
+                        
+            }
+
+            @media screen and (max-width: 375px){
+        
+                margin-right: -30%;
+                
+            }
+
+            img{
+    
+                width: 100%;
+                height: 100%;
+
+                clip-path: polygon(
+                    1rem 0,
+                    calc(100% + 0rem) 0,
+                    calc(100% - 1rem) 100%,
+                    0rem 100%
+                  );    
+
+                  opacity: .6;
+                  transition: all .5s;
+      
+                  &:hover{
+      
+                      opacity: 1;
+                      transition: all .5s;
+      
+                  }
+    
+            }
+
+            h1{
+
+                color: white;
+                font-family: Inter;
+                text-align: center;
+                font-size: 20px;
+                padding-top: 5%;
+                padding-bottom: 10%;
+
+                border-bottom: 1px solid white;
+                border-right: 30px solid transparent;
+                border-left: 30px solid transparent;
+        
+
+            }
+
+            h2{
+
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                justify-content: space-around;
+                display: flex;
+                padding-top: 5%;
+
+                h3{
+                
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 0;
+                    color: rgb(255, 0, 0);
+
+                    h4{
+
+                        color: greenyellow;
+                        margin-top: 0;
+
+                    }
+    
+                }    
+
+            }
+ 
+        }
+
+        .div-2{
+ 
+            width: 35%;
+            height: 100%;
+            position: absolute;
+            right: -35%;
+            background-color: rgb(9, 27, 44);
+
+            color: white;
+            font-family: Inter;
+
+            @media screen and (max-width: 375px){
+        
+                display: none;
+                
+            }
+
+            .Search-div{
+
+                h3{
+
+                    font-size: 14px;
+                    padding-top: 10%;
+                    font-weight: 200;
+
+                }
+
+                input{
+
+                    font-size: 14px;
+                    padding: 3% 15% 3% 5%;
+                    border: none;
+                    background-color: rgb(15, 36, 56);
+                    color: white;
+
+                    
+                    clip-path: polygon(
+                        .2rem 0,
+                        calc(100% + 0rem) 0,
+                        calc(100% - .2rem) 100%,
+                        0rem 100%
+                    );  
+
+                    @media screen and (max-width: 768px){
+        
+                        width: 60%;
+                        
+                    }
+
+                }
+
+            }
+
+            .category-div{
+
+                div{
+
+                    h1{
+
+                        font-size: 18px;
+                        padding: 3% 3% 3% 5%;
+                        width: 60%;
+                        background-color: rgb(15, 36, 56);
+        
+                        clip-path: polygon(
+                            .4rem 0,
+                            calc(100% + 0rem) 0,
+                            calc(100% - .4rem) 100%,
+                            0rem 100%
+                          );  
+
+                    }
+
+                }
+
+                .a-div{
+
+                    display: flex;
+                    flex-direction: column;
+
+                    a{
+
+                        text-decoration: underline 1px;
+                        color: white;
+                        padding-bottom: 3%;
+                        font-size: 16px;
+
+                        transition: all .2s;
+
+                        margin-left: 2%;
+
+                        &:hover{
+
+                            color: #f90000;
+                            transition: all .2s;
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+            .Popular-div{
+
+                div{
+
+                    .popular-text{
+
+                        font-size: 18px;
+                        padding: 3% 3% 3% 5%;
+                        width: 60%;
+                        background-color: rgb(15, 36, 56);
+        
+                        clip-path: polygon(
+                            .4rem 0,
+                            calc(100% + 0rem) 0,
+                            calc(100% - .4rem) 100%,
+                            0rem 100%
+                        );  
+
+                        @media screen and (max-width: 768px){
+        
+                            font-size: 14px;
+                        
+                          }
+
+                    }
+
+                }
+
+                .game-div{
+
+                    .mini-game-div{
+
+                        display: flex;
+                        gap: 5%;
+                        align-items: center;
+
+                        padding-bottom: 5%;
+                        
+                        img{
+
+                            width: 20%;
+                            height: 20%;
+                            
+                            clip-path: polygon(
+                                .4rem 0,
+                                calc(100% + 0rem) 0,
+                                calc(100% - .4rem) 100%,
+                                0rem 100%
+                              ); 
+
+                              @media screen and (max-width: 768px){
+        
+                                width: 40%;
+                                height: 40%;
+                        
+                              }
+
+                        }
+
+                        a{
+
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: white;
+                            text-decoration: none;
+
+                            transition: all .2s;
+
+                            &:hover{
+
+                                color: #f90000;
+                                transition: all .2s;
+
+                            }
+
+                        }
+
+                        h2{
+
+                            font-size: 14px;
+                            font-weight: 200;
+
+                        }
+                        
+                        .souls-div{
+
+                            display: flex;
+                            gap: 5%;
+                            margin-top: 0%;
+    
+                            p{
+    
+                                font-size: 12px;
+                                font-weight: 200;
+                                text-decoration: line-through;
+                                color: gray;
+                                margin-top: 5%;
+    
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                .Instagram{
+
+                    h1{
+
+                        font-size: 18px;
+                        padding: 3% 3% 3% 5%;
+                        width: 60%;
+                        background-color: rgb(15, 36, 56);
+        
+                        clip-path: polygon(
+                            .4rem 0,
+                            calc(100% + 0rem) 0,
+                            calc(100% - .4rem) 100%,
+                            0rem 100%
+                        ); 
+
+                        @media screen and (max-width: 768px){
+        
+                              font-size: 14px;  
+                        
+                          }
+
+                    }
+
+                    h2{
+
+                        font-size: 14px;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+}

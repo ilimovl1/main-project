@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap'); 
+
+.metro{
+
+    width: 100%;
+    height: 99vh;
+
+    filter: 
+    saturate(3)
+    hue-rotate(-10deg)
+    ;
+
+    @media screen and (max-width: 375px){
+        
+        width: 250%;
+        margin-left: -70%;
+
+    }
+
+}
+
+.div-0{
+
+    position: absolute;
+    top: 30%;
+    margin-left: 35%;
+    width: 30%;
+    height: 50%;
+    background-color: rgb(9, 27, 44);
+    opacity: .8;
+
+    @media screen and (max-width: 375px){
+        
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+
+    h1{
+
+        font-size: 48px;
+        font-family: Inter;
+        text-align: center;
+        font-weight: 900;
+        color: white;
+
+    }
+
+    .div-1{
+
+        width: 60%;
+        height: 20%;
+        display: flex;
+        margin: auto;
+        gap: 5%;
+
+        .twit{
+
+            width: 30%;
+            height: 20%;
+
+            color: white;
+            border: 1px solid white;
+            padding: 5% 5% 5% 5%;
+
+            transition: all .3s;
+
+            &:hover{
+
+                border: 1px solid red;
+                background-color: red;
+                transition: all .3s;
+
+            }           
+
+        }
+
+    }
+
+    .div-2{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        font-family: Inter;
+
+        input{
+
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 2%;
+            padding: 2% 0% 2% 0%;
+
+            background-color: #fff;
+            border: none;
+
+        }
+
+        .error{
+
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 2%;
+            padding: 2% 0% 2% 0%;
+
+            background-color: #a40404;
+            border: none;
+            color: white;
+
+        }
+
+        button{
+
+            width: 81%;
+            border: 2px solid white;
+            color: white;
+            background: none;
+            margin: auto;
+            padding: 2% 0% 2% 0%;
+
+            transition: all .3s;
+
+            &:hover{
+
+                border: 2px solid red;
+                background-color: red;
+                transition: all .3s;
+
+            }           
+
+        }
+
+    }
+
+}

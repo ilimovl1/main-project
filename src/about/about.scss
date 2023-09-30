@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');   
+
+.section{
+
+    width: 100%;
+    max-width: 1600px; 
+    font-family: Inter;
+
+    .image-div{
+
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        z-index: -10;
+
+        .image{
+
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+
+            filter: 
+            saturate(2)
+            hue-rotate(320deg)
+            blur(2px)
+            ;
+
+        }
+
+        h1{
+
+            font-size: 56px;
+            color: white;
+            position: absolute;
+            top: 35%;
+            left: 15%;
+
+        }
+
+    }
+
+    .card-div{
+
+        width: 100%;
+        height: 500px;
+        max-height: 1200px;
+        background-color: rgb(9, 27, 44);
+
+        .search-text{
+
+            display: flex;
+            width: 50%;
+            margin: auto;
+            align-items: center;
+
+            h1{
+
+                font-size: 32px;
+                color: white;
+
+            }
+
+            input{
+
+                width: 30%;
+                height: 5vh;
+                border: none;
+                background-color: rgb(15, 36, 56);
+                text-align: center;
+                color: gray;
+
+                clip-path: polygon(
+                    .2rem 0,
+                    calc(100% + 0rem) 0,
+                    calc(100% - .2rem) 100%,
+                    0rem 100%
+                  );  
+
+            }
+
+            h2{
+
+                font-size: 32px;
+                color: white;
+
+            }
+
+        }   
+
+    }
+
+}
